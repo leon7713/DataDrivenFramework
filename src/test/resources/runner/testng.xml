@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner">
-        <classes/>
+<suite name="Data Driven Basics">
+    <test name="LoginTest" verbose="2" preserve-order="true"> <!-- name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner" -->
+        <classes>
+            <class name="testcases.LoginTest" />
+        </classes>
     </test>
 </suite>
