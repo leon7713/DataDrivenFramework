@@ -4,12 +4,14 @@
     <list default="true" id="fbedd990-7513-4686-a512-a50b4875d288" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/excel/testdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/excel/testdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/runner/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/w2a/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/w2a/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/LoginTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +26,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="25" column="135" selection-start-line="25" selection-start-column="135" selection-end-line="25" selection-end-column="135" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,10 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testcases/LoginTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="113" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+            <state relative-caret-position="204">
+              <caret line="12" column="109" lean-forward="true" selection-start-line="12" selection-start-column="109" selection-end-line="12" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,19 +60,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="11" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -66,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -90,11 +95,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/w2a/rough/TestProperties.java" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/Config.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/OR.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java" />
       </list>
     </option>
   </component>
@@ -119,6 +125,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,22 +217,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548010397071" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548400010383" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Leonidus\projects\DataDrivenFramework\src\test\resources\properties" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Leonidus\projects\DataDrivenFramework\src\test\resources\runner" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Leonidus\projects\DataDrivenFramework\src\test\java\com\w2a\utilities" />
+      <recent name="C:\Users\Leonidus\projects\DataDrivenFramework\src\test\resources\properties" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,6 +257,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddCustomerTest.addCustomer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DataDrivenFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.AddCustomerTest" />
+      <option name="METHOD_NAME" value="addCustomer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -285,6 +310,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" />
+        <item itemvalue="TestNG.AddCustomerTest.addCustomer" />
         <item itemvalue="TestNG.LoginTest.loginAsBankManager" />
         <item itemvalue="Application.TestProperties" />
       </list>
@@ -304,41 +330,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.19 at 13h 13m 51s.xml">
+    <history-entry file="AddCustomerTest_addCustomer - 2019.01.25 at 08h 21m 32s.xml">
+      <configuration name="AddCustomerTest.addCustomer" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddCustomerTest_addCustomer - 2019.01.25 at 08h 23m 01s.xml">
+      <configuration name="AddCustomerTest.addCustomer" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddCustomerTest_addCustomer - 2019.01.25 at 08h 23m 57s.xml">
+      <configuration name="AddCustomerTest.addCustomer" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddCustomerTest_addCustomer - 2019.01.25 at 08h 31m 04s.xml">
+      <configuration name="AddCustomerTest.addCustomer" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddCustomerTest_addCustomer - 2019.01.25 at 08h 31m 39s.xml">
+      <configuration name="AddCustomerTest.addCustomer" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddCustomerTest_addCustomer - 2019.01.25 at 08h 39m 45s.xml">
+      <configuration name="AddCustomerTest.addCustomer" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddCustomerTest_addCustomer - 2019.01.25 at 08h 40m 31s.xml">
+      <configuration name="AddCustomerTest.addCustomer" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddCustomerTest_addCustomer - 2019.01.25 at 08h 57m 05s.xml">
+      <configuration name="AddCustomerTest.addCustomer" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.25 at 08h 59m 18s.xml">
       <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.19 at 13h 14m 20s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.19 at 13h 16m 24s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.19 at 13h 17m 02s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.20 at 20h 05m 18s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.20 at 20h 11m 23s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.20 at 20h 27m 05s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.20 at 20h 37m 52s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.20 at 20h 38m 37s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.20 at 20h 39m 57s.xml">
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.25 at 09h 06m 42s.xml">
       <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,8 +374,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41243863" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,27 +405,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/testcases.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="121" column="8" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="11" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/properties/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -412,30 +418,78 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/logs/Application.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/Config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="17">
+          <caret line="1" column="11" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/utilities/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2652">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#2120#2121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="25" column="135" selection-start-line="25" selection-start-column="135" selection-end-line="25" selection-end-column="135" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/test-classes/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="113" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+        <state relative-caret-position="68">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/runner/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="109" lean-forward="true" selection-start-line="12" selection-start-column="109" selection-end-line="12" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

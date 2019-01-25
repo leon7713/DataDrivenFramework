@@ -1,5 +1,6 @@
 package com.w2a.base;
 
+import com.w2a.utilities.ExcelReader;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +23,7 @@ public class TestBase {
     public static Properties OR = new Properties();
     public static FileInputStream fis;
     public static Logger log = Logger.getLogger("devpinoyLogger");
+    public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
 
     @BeforeSuite
     public void setUp() throws IOException {

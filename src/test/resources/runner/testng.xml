@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Data Driven Basics">
-    <test name="LoginTest" verbose="2" preserve-order="true"> <!-- name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner" -->
+    <test name="Bank Manager Login Test" verbose="2" preserve-order="true"> <!-- name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner" -->
         <classes>
-            <class name="testcases.LoginTest" />
+            <class name="testcases.BankManagerLoginTest" />
+        </classes>
+    </test>
+
+    <test name="Add Customer Test" verbose="2" preserve-order="true"> <!-- name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner" -->
+        <classes>
+            <class name="testcases.AddCustomerTest" />
         </classes>
     </test>
 </suite>
