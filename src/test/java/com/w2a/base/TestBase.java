@@ -1,15 +1,19 @@
 package com.w2a.base;
 
-import com.w2a.utilities.ExcelReader;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.NoSuchElementException;
@@ -23,7 +27,9 @@ public class TestBase {
     public static Properties OR = new Properties();
     public static FileInputStream fis;
     public static Logger log = Logger.getLogger("devpinoyLogger");
-    public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
+    //public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
+    public static WebDriverWait wait;
+
 
     @BeforeSuite
     public void setUp() throws IOException {
@@ -60,6 +66,7 @@ public class TestBase {
         log.debug("navigated to: " + config.getProperty("testsiteurl"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicit.wait")), TimeUnit.SECONDS);
+        wait = new WebDriverWait(driver, 5);
     }
 
     public boolean isElementPresent(By by) {
@@ -71,7 +78,6 @@ public class TestBase {
             return false;
         }
     }
-
 
     @AfterSuite
     public void tearDown() throws InterruptedException {
