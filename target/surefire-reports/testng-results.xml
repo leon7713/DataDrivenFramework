@@ -8,12 +8,12 @@
       <![CDATA[<a target="_blank" href="C:\Toshiba\Tbackground.jpg">Screenshot</a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-01-28T18:13:25Z" name="Data Driven Basics" finished-at="2019-01-28T18:13:31Z" duration-ms="6063">
+  <suite started-at="2019-02-01T15:02:58Z" name="Data Driven Basics" finished-at="2019-02-01T15:03:04Z" duration-ms="6497">
     <groups>
     </groups>
-    <test started-at="2019-01-28T18:13:25Z" name="Bank Manager Login Test" finished-at="2019-01-28T18:13:25Z" duration-ms="363">
+    <test started-at="2019-02-01T15:02:58Z" name="Bank Manager Login Test" finished-at="2019-02-01T15:02:59Z" duration-ms="729">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@1a18644]" started-at="2019-01-28T18:13:25Z" name="loginAsBankManager" finished-at="2019-01-28T18:13:25Z" duration-ms="344" status="PASS">
+        <test-method signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@7a6d7e92]" started-at="2019-02-01T15:02:58Z" name="loginAsBankManager" finished-at="2019-02-01T15:02:58Z" duration-ms="347" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login successfully executed]]>
@@ -25,13 +25,13 @@
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2019-01-28T18:13:25Z" name="Add Customer Test" finished-at="2019-01-28T18:13:31Z" duration-ms="5657">
+    <test started-at="2019-02-01T15:02:59Z" name="Add Customer Test" finished-at="2019-02-01T15:03:04Z" duration-ms="5705">
       <class name="testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@3ee37e5a]" started-at="2019-01-28T18:13:19Z" name="setUp" finished-at="2019-01-28T18:13:25Z" duration-ms="6284" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@7dfb0c0f]" started-at="2019-02-01T15:02:51Z" name="setUp" finished-at="2019-02-01T15:02:58Z" duration-ms="6429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@3ee37e5a]" started-at="2019-01-28T18:13:25Z" name="addCustomer" data-provider="getData" finished-at="2019-01-28T18:13:31Z" duration-ms="5653" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@7dfb0c0f]" started-at="2019-02-01T15:02:59Z" name="addCustomer" data-provider="getData" finished-at="2019-02-01T15:03:04Z" duration-ms="5577" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@3ee37e5a]" started-at="2019-01-28T18:13:31Z" name="tearDown" finished-at="2019-01-28T18:13:34Z" duration-ms="2756" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@7dfb0c0f]" started-at="2019-02-01T15:03:04Z" name="tearDown" finished-at="2019-02-01T15:03:07Z" duration-ms="2731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

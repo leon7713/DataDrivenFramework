@@ -1,10 +1,10 @@
 package com.w2a.base;
 
-import org.apache.commons.io.FileUtils;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.w2a.utilities.ExtentManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,8 +12,6 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.NoSuchElementException;
@@ -29,6 +27,8 @@ public class TestBase {
     public static Logger log = Logger.getLogger("devpinoyLogger");
     //public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testdata.xlsx");
     public static WebDriverWait wait;
+    public ExtentReports rep = ExtentManager.getInstance();
+    public static ExtentTest test;
 
 
     @BeforeSuite

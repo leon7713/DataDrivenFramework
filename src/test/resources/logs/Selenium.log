@@ -1,7 +1,17 @@
-20:13:19,019 DEBUG devpinoyLogger:41 - config file loaded !!!
-20:13:19,035 DEBUG devpinoyLogger:44 - OR file loaded !!!
-20:13:22,215 DEBUG devpinoyLogger:56 - chrome launched !!!
-20:13:24,145 DEBUG devpinoyLogger:66 - navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
-20:13:25,318 DEBUG devpinoyLogger:15 - inside Login Test
-20:13:25,661 DEBUG devpinoyLogger:19 - Login successfully executed
-20:13:34,148 DEBUG devpinoyLogger:90 - execution completed !!!
+17:02:51,904 DEBUG devpinoyLogger:41 - config file loaded !!!
+17:02:51,904 DEBUG devpinoyLogger:44 - OR file loaded !!!
+17:02:55,249 DEBUG devpinoyLogger:56 - chrome launched !!!
+17:02:57,167 DEBUG devpinoyLogger:66 - navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+17:02:58,350 DEBUG devpinoyLogger:15 - inside Login Test
+17:02:58,690 DEBUG devpinoyLogger:19 - Login successfully executed
+17:02:58,721 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+17:02:58,724 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+17:02:58,727 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+17:02:58,729 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+17:02:58,730 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Leonidus/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+17:03:04,687 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+17:03:04,689 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+17:03:04,690 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+17:03:04,692 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+17:03:04,692 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Leonidus/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+17:03:07,621 DEBUG devpinoyLogger:90 - execution completed !!!
