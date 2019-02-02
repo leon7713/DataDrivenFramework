@@ -2,7 +2,6 @@ package com.w2a.listeners;
 
 import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.base.TestBase;
-import com.w2a.utilities.TestUtil;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;

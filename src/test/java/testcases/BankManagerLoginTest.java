@@ -13,8 +13,8 @@ public class BankManagerLoginTest extends TestBase {
 
         System.setProperty("org.uncommons.reportng.escape-output","false"); //to show picture in html report
         log.debug("inside Login Test");
-        driver.findElement(By.cssSelector(OR.getProperty("bmlBtn"))).click();
-        Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("addCustBtn"))),"Login not successful");
+        click("bmlBtn_CSS");
+        Assert.assertTrue(isElementPresent(By.cssSelector(OR.getProperty("addCustBtn_CSS"))),"Login not successful");
 
         log.debug("Login successfully executed");
         Reporter.log("Login successfully executed");

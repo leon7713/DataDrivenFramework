@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbedd990-7513-4686-a512-a50b4875d288" name="Default Changelist" comment="" />
+    <list default="true" id="fbedd990-7513-4686-a512-a50b4875d288" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/w2a/listeners/CustomListeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/w2a/listeners/CustomListeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/w2a/rough/TestProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/w2a/rough/TestProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logs/Selenium.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/properties/OR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/html/extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/html/extent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/w2a/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/w2a/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/w2a/listeners/CustomListeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/w2a/listeners/CustomListeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/w2a/rough/TestProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/w2a/rough/TestProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/AddCustomerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/AddCustomerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/BankManagerLoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/BankManagerLoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test2_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/testcases.AddCustomerTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/testcases.AddCustomerTest_results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/testcases.BankManagerLoginTest_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/testcases.BankManagerLoginTest_results.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/listeners/CustomListeners.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+              <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,20 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/utilities/TestUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,8 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="192">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,28 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/utilities/ExtentManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="131" selection-start-line="15" selection-start-column="131" selection-end-line="15" selection-end-column="131" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -117,16 +97,16 @@
         <option value="$PROJECT_DIR$/src/test/resources/properties/log4j.properties" />
         <option value="$PROJECT_DIR$/src/test/java/testcases/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/properties/Config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/resources/runner/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/properties/OR.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/w2a/rough/TestTimeStamp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/w2a/utilities/TestUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/w2a/utilities/ExtentManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/w2a/listeners/CustomListeners.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/properties/OR.properties" />
       </list>
     </option>
   </component>
@@ -199,15 +179,6 @@
               <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="w2a" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,6 +188,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="extentconfig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataDrivenFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DataDrivenFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +223,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549033435476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549103677535" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -368,34 +347,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.28 at 19h 56m 39s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.28 at 20h 02m 15s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.28 at 20h 04m 27s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.28 at 20h 07m 06s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.01.28 at 20h 09m 01s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.01 at 13h 46m 28s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.01 at 13h 47m 26s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.01 at 13h 50m 13s.xml">
-      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.01 at 15h 02m 27s.xml">
       <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.01 at 16h 56m 07s.xml">
+      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.02 at 11h 24m 25s.xml">
+      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.02 at 12h 03m 19s.xml">
+      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.02 at 12h 04m 55s.xml">
+      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.02 at 12h 09m 35s.xml">
+      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.02 at 12h 11m 01s.xml">
+      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.02 at 12h 11m 26s.xml">
+      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.02 at 12h 29m 10s.xml">
+      <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_Leonidus_projects_DataDrivenFramework_src_test_resources_runner_testng_xml - 2019.02.02 at 12h 31m 06s.xml">
       <configuration name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -403,7 +382,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -500,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1236">
@@ -514,12 +486,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/utilities/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/extentconfig/ReportsConfig.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/listeners/CustomListeners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/utilities/ExtentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="255">
           <caret line="15" column="131" selection-start-line="15" selection-start-column="131" selection-end-line="15" selection-end-column="131" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -527,10 +519,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/utilities/TestUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -540,40 +542,17 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/base/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/AddCustomerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/properties/OR.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testcases/BankManagerLoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/w2a/listeners/CustomListeners.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>

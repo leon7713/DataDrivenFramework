@@ -2,7 +2,6 @@ package testcases;
 
 import com.w2a.base.TestBase;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -14,12 +13,12 @@ public class AddCustomerTest extends TestBase {
     @Test(dataProvider = "getData")
     public void addCustomer(String firstName, String lastName, String postCode, String alerttext) throws InterruptedException {
 
-        driver.findElement(By.cssSelector(OR.getProperty("addCustBtn"))).click();
+        click("addCustBtn_CSS");
         Thread.sleep(3000);
-        driver.findElement(By.cssSelector(OR.getProperty("firstname"))).sendKeys(firstName);
-        driver.findElement(By.cssSelector(OR.getProperty("lastname"))).sendKeys(lastName);
-        driver.findElement(By.cssSelector(OR.getProperty("postcode"))).sendKeys(postCode);
-        driver.findElement(By.cssSelector(OR.getProperty("addbtn"))).click();
+        type("firstname_CSS", firstName);
+        type("lastname_XPATH", lastName);
+        type("postcode_CSS", postCode);
+        click("addbtn_CSS");
 
         Alert alert = wait.until(ExpectedConditions.alertIsPresent());
         Assert.assertTrue(alert.getText().contains(alerttext));
