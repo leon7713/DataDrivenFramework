@@ -124,6 +124,8 @@
             </plugin>
         </plugins>
 
+
+
         <testResources>
             <testResource>
                 <directory>src/test/resources/properties</directory>

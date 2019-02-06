@@ -11,6 +11,8 @@ public class BankManagerLoginTest extends TestBase {
     @Test
     public void loginAsBankManager() {
 
+        Assert.assertEquals("abs", "xyz");
+
         System.setProperty("org.uncommons.reportng.escape-output","false"); //to show picture in html report
         log.debug("inside Login Test");
         click("bmlBtn_CSS");
