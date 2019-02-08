@@ -34,11 +34,15 @@ public class AddCustomerTest extends TestBase {
 
         //row stands for how many different data types test should run
         //column stands for how many values per each test
-        Object[][] data = new Object[1][4];
+        Object[][] data = new Object[2][4];
         data[0][0] = "Leon";
         data[0][1] = "Ushar";
         data[0][2] = "109388";
         data[0][3] = "Customer added successfully with customer id";
+        data[1][0] = "Aleks";
+        data[1][1] = "Johnson";
+        data[1][2] = "112233";
+        data[1][3] = "Customer added successfully with customer id";
 
         return data;
     }

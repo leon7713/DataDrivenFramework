@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Login successfully executed]]>
@@ -8,12 +8,12 @@
       <![CDATA[<a target="_blank" href="C:\Toshiba\Tbackground.jpg">Screenshot</a>]]>
     </line>
   </reporter-output>
-  <suite started-at="2019-02-06T18:35:41Z" name="Data Driven Basics" finished-at="2019-02-06T18:35:47Z" duration-ms="6506">
+  <suite started-at="2019-02-08T17:14:03Z" name="Data Driven Basics" finished-at="2019-02-08T17:14:24Z" duration-ms="20900">
     <groups>
     </groups>
-    <test started-at="2019-02-06T18:35:41Z" name="Bank Manager Login Test" finished-at="2019-02-06T18:35:42Z" duration-ms="730">
+    <test started-at="2019-02-08T17:14:03Z" name="Bank Manager Login Test" finished-at="2019-02-08T17:14:04Z" duration-ms="1079">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@97e93f1]" started-at="2019-02-06T18:35:41Z" name="loginAsBankManager" finished-at="2019-02-06T18:35:41Z" duration-ms="335" status="PASS">
+        <test-method signature="loginAsBankManager()[pri:0, instance:testcases.BankManagerLoginTest@4b520ea8]" started-at="2019-02-08T17:14:03Z" name="loginAsBankManager" finished-at="2019-02-08T17:14:04Z" duration-ms="653" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login successfully executed]]>
@@ -25,13 +25,9 @@
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2019-02-06T18:35:42Z" name="Add Customer Test" finished-at="2019-02-06T18:35:47Z" duration-ms="5729">
+    <test started-at="2019-02-08T17:14:04Z" name="Add Customer Test" finished-at="2019-02-08T17:14:19Z" duration-ms="15204">
       <class name="testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@169bb4dd]" started-at="2019-02-06T18:35:34Z" name="setUp" finished-at="2019-02-06T18:35:41Z" duration-ms="6609" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@169bb4dd]" started-at="2019-02-06T18:35:42Z" name="addCustomer" data-provider="getData" finished-at="2019-02-06T18:35:47Z" duration-ms="5606" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@3aa078fd]" started-at="2019-02-08T17:14:04Z" name="addCustomer" data-provider="getData" finished-at="2019-02-08T17:14:12Z" duration-ms="7679" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,11 +53,61 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@169bb4dd]" started-at="2019-02-06T18:35:47Z" name="tearDown" finished-at="2019-02-06T18:35:50Z" duration-ms="2721" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@3aa078fd]" started-at="2019-02-08T17:14:12Z" name="addCustomer" data-provider="getData" finished-at="2019-02-08T17:14:19Z" duration-ms="7365" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aleks]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Johnson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[112233]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully with customer id]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test started-at="2019-02-08T17:14:19Z" name="Open Account Test" finished-at="2019-02-08T17:14:24Z" duration-ms="4516">
+      <class name="testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@2254127a]" started-at="2019-02-08T17:13:57Z" name="setUp" finished-at="2019-02-08T17:14:03Z" duration-ms="6190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@2254127a]" started-at="2019-02-08T17:14:19Z" name="openAccount" data-provider="getData" finished-at="2019-02-08T17:14:24Z" duration-ms="4445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@2254127a]" started-at="2019-02-08T17:14:24Z" name="tearDown" finished-at="2019-02-08T17:14:27Z" duration-ms="2706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.AddCustomerTest -->
-    </test> <!-- Add Customer Test -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
   </suite> <!-- Data Driven Basics -->
 </testng-results>

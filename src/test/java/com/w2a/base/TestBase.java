@@ -8,9 +8,11 @@ import com.w2a.utilities.TestUtil;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
@@ -99,6 +101,26 @@ public class TestBase {
             driver.findElement(By.id(OR.getProperty(locator))).sendKeys(value);
         }
         test.log(LogStatus.INFO, "Typing in: " + locator + " entered value: " + value);
+    }
+
+    static WebElement dropdown;
+
+    public void select(String locator, String value) {
+
+        if (locator.endsWith("_CSS")) {
+            dropdown = driver.findElement(By.cssSelector(OR.getProperty(locator)));
+        }
+        else if (locator.endsWith("_XPATH")) {
+            dropdown = driver.findElement(By.xpath(OR.getProperty(locator)));
+        }
+        else if (locator.endsWith("_ID")) {
+            dropdown = driver.findElement(By.id(OR.getProperty(locator)));
+        }
+
+        Select select = new Select(dropdown);
+        select.selectByVisibleText(value);
+
+        test.log(LogStatus.INFO, "Selecting from dropdown: " + locator + " entered value: " + value);
     }
 
     public boolean isElementPresent(By by) {
