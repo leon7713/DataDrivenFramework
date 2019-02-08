@@ -6,12 +6,14 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class BankManagerLoginTest extends TestBase {
 
     @Test
-    public void loginAsBankManager() {
+    public void loginAsBankManager() throws IOException {
 
-        Assert.assertEquals("abs", "xyz");
+        verifyEquals("abc", "xyz");
 
         System.setProperty("org.uncommons.reportng.escape-output","false"); //to show picture in html report
         log.debug("inside Login Test");

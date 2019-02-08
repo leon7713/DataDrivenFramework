@@ -1,17 +1,22 @@
-20:45:22,803 DEBUG devpinoyLogger:42 - config file loaded !!!
-20:45:22,809 DEBUG devpinoyLogger:45 - OR file loaded !!!
-20:45:26,253 DEBUG devpinoyLogger:57 - chrome launched !!!
-20:45:28,026 DEBUG devpinoyLogger:67 - navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
-20:45:29,227 DEBUG devpinoyLogger:22 - inside Login Test
-20:45:29,601 DEBUG devpinoyLogger:26 - Login successfully executed
-20:45:29,641 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-20:45:29,644 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-20:45:29,647 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-20:45:29,650 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-20:45:29,651 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Leonidus/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-20:45:35,587 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-20:45:35,588 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-20:45:35,590 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-20:45:35,591 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-20:45:35,592 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Leonidus/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-20:45:38,464 DEBUG devpinoyLogger:120 - execution completed !!!
+11:50:28,019 DEBUG devpinoyLogger:44 - config file loaded !!!
+11:50:28,025 DEBUG devpinoyLogger:47 - OR file loaded !!!
+11:50:31,502 DEBUG devpinoyLogger:59 - chrome launched !!!
+11:50:33,381 DEBUG devpinoyLogger:69 - navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+11:50:34,854 DEBUG devpinoyLogger:19 - inside Login Test
+11:50:35,165 DEBUG devpinoyLogger:23 - Login successfully executed
+11:50:35,207 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:50:35,209 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:50:35,213 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:50:35,216 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:50:35,217 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Leonidus/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:50:43,110 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:50:43,111 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:50:43,111 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:50:43,112 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:50:43,112 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Leonidus/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:50:43,695 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:50:43,696 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:50:43,697 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:50:43,698 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:50:43,699 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Leonidus/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:50:46,537 DEBUG devpinoyLogger:131 - execution completed !!!

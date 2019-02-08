@@ -19,4 +19,11 @@
             <class name="testcases.AddCustomerTest" />
         </classes>
     </test>
+
+    <test name="Open Account Test" verbose="2" preserve-order="true"> <!-- name="C:/Users/Leonidus/projects/DataDrivenFramework/src/test/resources/runner" -->
+        <classes>
+            <class name="testcases.OpenAccountTest" />
+        </classes>
+    </test>
+
 </suite>

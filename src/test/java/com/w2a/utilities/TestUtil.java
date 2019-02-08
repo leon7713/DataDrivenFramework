@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class TestUtil extends TestBase {
 
-    public static void captureScreenshot(String result) throws IOException, InterruptedException {
+    public static void captureScreenshot(String result) throws IOException {
 
         Date d = new Date();
         File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);

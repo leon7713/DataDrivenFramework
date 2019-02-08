@@ -30,8 +30,6 @@ public class CustomListeners extends TestBase implements ITestListener {
             captureScreenshot(result.getName());
         } catch (IOException e) {
             e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
         }
 
         test.log(LogStatus.FAIL,result.getName().toUpperCase() + " Failed with exception : " + result.getThrowable());

@@ -4,6 +4,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.w2a.utilities.ExtentManager;
+import com.w2a.utilities.TestUtil;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,6 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import java.io.FileInputStream;
@@ -109,7 +111,13 @@ public class TestBase {
         }
     }
 
-    
+    public static void verifyEquals(String expected, String actual) throws IOException {
+        try{
+            Assert.assertEquals(expected, actual);
+        } catch (Throwable t) {
+            TestUtil.captureScreenshot("verifyEquals failed! ");
+        }
+    }
 
 
     @AfterSuite
